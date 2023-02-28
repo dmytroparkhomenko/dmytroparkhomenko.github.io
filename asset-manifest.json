@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a35f6cfe.css",
+    "main.js": "/static/js/main.d3e9c958.js",
+    "static/media/texture.jpg": "/static/media/texture.0a7b9cd461a37b4bc66a.jpg",
+    "static/media/header.png": "/static/media/header.69b5f4460c8dede57436.png",
+    "static/media/bg-main.jpg": "/static/media/bg-main.475a56365a4ce7878d35.jpg",
+    "static/media/cardPageBeans.jpg": "/static/media/cardPageBeans.cb335c751cc755b6ffc6.jpg",
+    "static/media/about-beans.png": "/static/media/about-beans.459b4ff2d2e38e1a649a.png",
+    "static/media/card-beans.png": "/static/media/card-beans.dcb91dcba4b6b965f048.png",
+    "static/media/start-cards-beans-3.png": "/static/media/start-cards-beans-3.dcb91dcba4b6b965f048.png",
+    "static/media/start-cards-beans-1.png": "/static/media/start-cards-beans-1.93b7ca5e4837fd856f71.png",
+    "static/media/start-cards-beans-2.png": "/static/media/start-cards-beans-2.eac7a0065dc6e158d889.png",
+    "static/media/Logo.svg": "/static/media/Logo.f0e03d2af9e994183ce78c68eca0930d.svg",
+    "static/media/Beans.svg": "/static/media/Beans.d8ad06a77a7f633d0c2a9736d6fb4634.svg",
+    "static/media/Beans-light.svg": "/static/media/Beans-light.023b976cf584c92cb61afe5c82a0d35f.svg",
+    "index.html": "/index.html",
+    "main.a35f6cfe.css.map": "/static/css/main.a35f6cfe.css.map",
+    "main.d3e9c958.js.map": "/static/js/main.d3e9c958.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a35f6cfe.css",
+    "static/js/main.d3e9c958.js"
+  ]
+}
