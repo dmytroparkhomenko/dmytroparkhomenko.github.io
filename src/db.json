@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1, 
+            "img": "./pic/card-beans.png", 
+            "alt": "Beans Card Image", 
+            "title": "AROMISTICO Coffee 1 kg", 
+            "country": "Brazil", 
+            "price": 6.99
+        },
+        {
+            "id": 2, 
+            "img": "./pic/card-beans.png", 
+            "alt": "Beans Card Image", 
+            "title": "AROMISTICO Coffee 1 kg", 
+            "country": "Brazil", 
+            "price": 6.99
+        },
+        {
+            "id": 3, 
+            "img": "./pic/card-beans.png", 
+            "alt": "Beans Card Image", 
+            "title": "AROMISTICO Coffee 1 kg", 
+            "country": "Brazil", 
+            "price": 6.99
+        },
+        {
+            "id": 4, 
+            "img": "./pic/card-beans.png", 
+            "alt": "Beans Card Image", 
+            "title": "AROMISTICO Coffee 1 kg", 
+            "country": "Brazil", 
+            "price": 6.99
+        },
+        {
+            "id": 5, 
+            "img": "./pic/card-beans.png", 
+            "alt": "Beans Card Image", 
+            "title": "AROMISTICO Coffee 1 kg", 
+            "country": "Brazil", 
+            "price": 6.99
+        },
+        {
+            "id": 6, 
+            "img": "./pic/card-beans.png", 
+            "alt": "Beans Card Image", 
+            "title": "AROMISTICO Coffee 1 kg", 
+            "country": "Brazil", 
+            "price": 6.99
+        }
+    ]
+}

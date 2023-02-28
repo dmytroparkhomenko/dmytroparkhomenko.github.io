@@ -1,0 +1,80 @@
+.container {
+    max-width: 800px;
+
+    hr {
+        width: 250px;
+        color: #000;
+        opacity: 1;
+        margin: 30px auto 50px auto;
+    }
+}
+
+.about_beans {
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .about_beans_desc {
+        max-width: 350px;
+    
+        img {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+
+    .search, .filter, .filter_choose {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            margin: 0 20px 0 0 ;
+        }
+    }
+
+    .search input {
+        border: none; 
+        padding: 5px; 
+        border-radius: 4px;
+        
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    }  
+
+    .search input::placeholder {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .filter_choose div {
+        border: 1px solid #fff;
+        padding: 7px 15px;
+        margin-right: 5px;
+        font-size: 13px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: all .2s ease;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 15px;
+
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+        }
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;    
+}
