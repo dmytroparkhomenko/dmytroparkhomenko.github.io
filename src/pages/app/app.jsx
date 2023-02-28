@@ -7,7 +7,8 @@ import OurCoffee from "../our-coffee/our-coffee";
 import Nav from "../../components/nav/nav";
 import NoPage from "../nopage/no-page";
 import ForYou from "../for-you/for-you";
-import CardPage from '../../components/cardPage/cardPage';
+import CardPage from '../cardPage/cardPage';
+import Admin from '../admin/admin';
 
 
 class App extends Component {
@@ -65,7 +66,7 @@ class App extends Component {
         ],  
         filtersButtons: ["All", "Brazil", "Kenya", "Columbia"],
         filter: 'All',
-        field: ''   
+        field: ''
     }
 
     changeFieldState = (field) => this.setState({field})
@@ -86,6 +87,7 @@ class App extends Component {
 
     render() {
         const {cards, field, filter} = this.state
+        const dataCount = cards.length
 
         return (
             <>
@@ -99,9 +101,11 @@ class App extends Component {
                                     changeFieldState={this.changeFieldState}
                                     filtersButtons={this.state.filtersButtons}
                                     onFilterSelect={this.onFilterSelect}
+                                    dataCount={dataCount}
                                     />} 
                             />
-                            <Route path="for-you" element={<ForYou />} />
+                            <Route path="for-you" element={<ForYou data={cards}/>} />
+                            <Route path="admin" element={<Admin/> } />
                             <Route path="*" element={<NoPage />} />
 
                             {this.state.cards.map(item => {

@@ -1,0 +1,22 @@
+.search, .filter, .filter_choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        margin: 0 20px 0 0 ;
+    }
+}
+
+.search input {
+    border: none; 
+    padding: 5px; 
+    border-radius: 4px;
+    
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}  
+
+.search input::placeholder {
+    font-size: 13px;
+    text-align: center;
+}

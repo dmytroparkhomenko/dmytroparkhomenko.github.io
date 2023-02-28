@@ -1,3 +1,18 @@
 .active {
     border: 1px solid #000 !important;
 }
+
+.filter_choose div {
+    border: 1px solid #fff;
+    padding: 7px 15px;
+    margin-right: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .2s ease;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 15px;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+    }
+}
