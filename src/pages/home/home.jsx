@@ -84,6 +84,17 @@ class Home extends Component {
                                     </Link>
                                 </Col>
                             </Row>
+                            <Row>
+                                <Col>
+                                    <Card title="Presto Coffee Beans 1kg"  price="14,99" img={startBeans1} />
+                                </Col>
+                                <Col>
+                                    <Card title="Presto Coffee Beans 1kg"  price="14,99" img={startBeans2} />
+                                </Col>
+                                <Col>
+                                    <Card title="Presto Coffee Beans 1kg"  price="14,99" img={startBeans3} />
+                                </Col>
+                            </Row> 
                     </Container>
                 </div>
                 <Footer/>
