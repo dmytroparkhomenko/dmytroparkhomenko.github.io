@@ -6,12 +6,14 @@ const Card = (props) => {
     return (
         <>
             <Link to={"/our-coffee/products/" + props.id}>
-                <div className="card">
-                    <img src={imgTest} alt="Beans" />
+
+                <div className={props.kind && props.kind === 'home-card' ? "card home-card" : "card" }>
+                    <img src={props.img || imgTest} alt="Beans" />
                     <p>{props.title}</p>
                     <p>{props.country}</p>
                     <span>{props.price}$</span>
                 </div>
+
             </Link>
         </>
     )

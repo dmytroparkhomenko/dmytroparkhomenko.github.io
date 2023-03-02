@@ -12,6 +12,7 @@ import startBeans1 from '../../pic/start-cards-beans-1.png'
 import startBeans2 from '../../pic/start-cards-beans-2.png'
 import startBeans3 from '../../pic/start-cards-beans-3.png'
 import Footer from '../../components/footer/footer'
+import Card from "../../components/card/card"
 
 
 class Home extends Component {
@@ -51,48 +52,13 @@ class Home extends Component {
                     <Container className="container">
                             <Row>
                                 <Col>
-                                    <Link to="/our-coffee/products/10">
-                                        <div className="start_card">
-                                            <img src={startBeans1} alt="beans1" />
-                                            <div className="desc">
-                                                <p>Presto coffee Beans 1kg</p>
-                                                <span className="rightSide">14,99$</span>
-                                            </div>
-                                        </div>`
-                                    </Link>
+                                    <Card title="Presto Coffee Beans 1kg"  price="14,99" img={startBeans1} kind="home-card"/>
                                 </Col>
                                 <Col>
-                                    <Link to="/our-coffee/products/10">
-                                        <div className="start_card">
-                                            <img src={startBeans2} alt="beans2" />
-                                            <div className="desc">
-                                                <p>Presto coffee Beans 1kg</p>
-                                                <span className="rightSide">14,99$</span>
-                                            </div>
-                                        </div>
-                                    </Link>
+                                    <Card title="Presto Coffee Beans 1kg"  price="14,99" img={startBeans2} kind="home-card"/>
                                 </Col>
                                 <Col>
-                                    <Link to="/our-coffee/products/10">
-                                        <div className="start_card">
-                                            <img src={startBeans3} alt="beans3" />  
-                                            <div className="desc">
-                                                <p>Presto coffee Beans 1kg</p>
-                                                <span className="rightSide">14,99$</span>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <Card title="Presto Coffee Beans 1kg"  price="14,99" img={startBeans1} />
-                                </Col>
-                                <Col>
-                                    <Card title="Presto Coffee Beans 1kg"  price="14,99" img={startBeans2} />
-                                </Col>
-                                <Col>
-                                    <Card title="Presto Coffee Beans 1kg"  price="14,99" img={startBeans3} />
+                                    <Card title="Presto Coffee Beans 1kg"  price="14,99" img={startBeans3} kind="home-card"/>
                                 </Col>
                             </Row> 
                     </Container>

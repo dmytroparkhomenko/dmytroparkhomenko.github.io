@@ -33,3 +33,29 @@ a {
 .card:hover {
     box-shadow: rgba(100, 100, 111, 0.45) 0px 7px 29px 0px;
 }
+
+.home-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    min-height: 250px;
+    text-align: right;
+
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, .65);
+    margin: 20px 15px;
+    padding: 20px;
+
+    cursor: pointer;
+
+    img {
+        margin-bottom: 10px;
+    }
+    span {
+        display: flex;
+        justify-content: right;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
